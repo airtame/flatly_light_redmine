@@ -101,4 +101,11 @@
     }
   }
 
+  // Ugly a*s full-screen check from the theme
+  var current_location = window.location.href;
+  if (current_location.indexOf('board#fullscreen') != -1) {
+    $("html").toggleClass("agile-board-fullscreen"); 
+    $(".issue-card").toggleClass("hascontextmenu");
+  }
+
 })( window );
