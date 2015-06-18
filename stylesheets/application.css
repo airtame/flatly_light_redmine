@@ -303,8 +303,6 @@ select {
     outline:none;
     display: inline-block;
     cursor:pointer;
-    float:right;
-    margin:1em;
 }
 /*=========== MY PAGE ==========*/
 tr.time-entry {
@@ -327,3 +325,7 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   right: 10px;
 }
 
+#project_quick_jump_box {
+  float:right;
+  margin:1em;
+}
