@@ -153,6 +153,7 @@ label[for="q"]{
   display: block;
   height: 100%;
   margin-right: 310px;
+  display:inline-block;
 }
 
 #quick-search input{
@@ -302,6 +303,8 @@ select {
     outline:none;
     display: inline-block;
     cursor:pointer;
+    float:right;
+    margin:1em;
 }
 /*=========== MY PAGE ==========*/
 tr.time-entry {
